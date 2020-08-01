@@ -6,7 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "^2.5.5",
     "express": "^4.17.1",
     "firebase": "^7.14.6",
     "firebase-admin": "^8.12.1",
