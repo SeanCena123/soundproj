@@ -10,14 +10,24 @@
 
 <div> 
 <nav class="navbar fixed-top navbar-light bg-dark">
-  <a class="navbar-brand" href="#" style="color: white;">VCE Organic Chemistry Functional Groups</a>
+  <a class="navbar-brand" href="#" style="color: white; max-width: 50px">Sound Project</a>
 </nav> <br><br> <br>    
+<p> Testing </p>
+<button type="button" onclick="PlaySound()" class="btn btn-primary">Primary</button>
 
 
 
 <script type="text/javascript" src="js/load.js"></script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+<script>
+    function PlaySound() {
+    	console.log("play");
+        var snd = new Audio("sound.mp3");
+        snd.play();
+    }
+</script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
